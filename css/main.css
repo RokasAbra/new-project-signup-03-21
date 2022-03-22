@@ -23,6 +23,10 @@ body {
   /* background-color: hsl(190, 100%, 58%); 
     background-color: rgb(118, 188, 222); */
   background-color: #76bcde;
+  background-image: url(../images/hill.jpg);
+  background-position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   color: white;
 }
