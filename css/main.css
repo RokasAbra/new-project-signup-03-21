@@ -8,6 +8,7 @@ body * {
 
 body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #b354b2;
 }
 .container {
   width: 800px;
@@ -19,12 +20,33 @@ body {
   float: left;
   width: 40%;
   padding: 40px;
-  background-color: red;
+  /* background-color: hsl(190, 100%, 58%); 
+    background-color: rgb(118, 188, 222); 
+    */
+  background-color: #76bcde;
+  background-image: url(../images/img.png);
+
+  /*background-repeat: no-repeat; kai yra background-size:cover repeat funkcija nereikalinga*/
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+.main-title {
+  margin-bottom: 250px;
+  width: 100%;
+  color: white;
+  font-size: 40px;
+  font-weight: normal;
+}
+.bottom-links {
+}
+.bottom-links > .link {
+  color: white;
 }
 
 .right-column {
   float: left;
   width: 60%;
   padding: 60px;
-  background-color: blue;
+  background-color: #fff;
 }
