@@ -9,9 +9,19 @@
   background-color: #015cda;
   color: #fff;
   cursor: pointer;
+  background: rgb(255, 0, 123);
+  background: linear-gradient(
+    14deg,
+    rgba(255, 0, 123, 1) 0%,
+    rgba(32, 0, 36, 0.8646408839779005) 47%,
+    rgba(96, 9, 121, 1) 68%
+  );
 }
 .btn:hover {
-  background-color: white;
-
-  color: #015cda;
+  background: linear-gradient(
+    -14deg,
+    rgba(255, 0, 123, 1) 0%,
+    rgba(32, 0, 36, 0.8646408839779005) 47%,
+    rgba(96, 9, 121, 1) 68%
+  );
 }
