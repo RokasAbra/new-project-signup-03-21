@@ -26,6 +26,9 @@
 
   padding: 8px 0;
 }
+.form > .form-row > .input:focus-visible {
+  outline: 1px solid orangered;
+}
 
 .form span {
   margin: 0 10px 10px;
