@@ -1,13 +1,16 @@
 .container {
+  display: inline-block;
   width: 800px;
   margin-left: calc(50% - 400px);
   margin-top: 100px;
+  position: relative;
 }
 
 .left-column {
   float: left;
   width: 40%;
   padding: 40px;
+  position: absolute;
   /* background-color: hsl(190, 100%, 58%); 
     background-color: rgb(118, 188, 222); 
     */
@@ -18,26 +21,42 @@
   background-size: cover;
   background-position: center;
   color: white;
+  bottom: 30px;
+  top: 30px;
+  left: 0;
 }
 .main-title {
-  margin-bottom: 250px;
   width: 100%;
   color: white;
   font-size: 40px;
   font-weight: normal;
 }
 .bottom-links {
+  position: absolute;
+  bottom: 20px;
+  left: 40px;
+  right: 40px;
 }
 .bottom-links > .link {
   color: white;
 }
 
 .right-column {
-  float: left;
+  float: right;
   width: 60%;
   padding: 60px;
   background-color: #fff;
+  position: relative;
 }
 
 .close {
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 54px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
 }
