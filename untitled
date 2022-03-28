@@ -1,0 +1,10 @@
+
+hex 3 simboliai
+one-line padding/margin/border-radius
+
+
+SVG:
+
+"HTML" -> 100b x10 -> 1000b gali stailinti kiekviena individualiai
+
+<imng> -> 100b x10 -> 100b nera stiliaus
